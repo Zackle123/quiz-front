@@ -14,7 +14,8 @@ body {
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 10px;
   box-shadow: 0 0 20px #3e0c87;
-  margin-top: 150px;
+  width: 100%;
+  min-height: 200px;
 }
 
 .quiz-question {
@@ -76,4 +77,232 @@ body {
   border: none;
   margin-bottom: 20px;
   width: 60%;
+}
+
+.app-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 54px);
+  width: 100vw;
+}
+
+nav a:hover {
+  color: darkblue;
+}
+
+nav {
+      background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+.contact-container {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.contact-container h2 {
+  margin-bottom: 1rem;
+  color: white;
+  text-align: center;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  color: white;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  margin-top: 0.4rem;
+  transition: border-color 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #ffb700;
+  outline: none;
+}
+
+.contact-form button {
+  padding: 0.8rem;
+  background-color: #ffb700;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #da9d03;
+}
+
+.success-message {
+  text-align: center;
+  color: #28a745;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.success-message {
+  color: #28a745;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.error-message {
+  color: #dc3545;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.question-form-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 8px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.question-form h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: white;
+}
+
+.question-form label {
+  display: block;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  color: white;
+}
+
+.question-form textarea {
+  width: 100%;
+  height: 80px;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  resize: vertical;
+}
+
+.answers-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.answer-input {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.answer-input input[type="text"] {
+  flex: 1;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.radio-label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 500;
+}
+
+.question-form button {
+  margin-top: 1.5rem;
+  padding: 0.75rem 1rem;
+  background-color: #ffb700;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.question-form button:hover {
+  background-color: #eba902;
+}
+
+.about-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+}
+
+.about-content h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: white;
+  text-align: center;
+}
+
+.about-content h2 {
+  margin-top: 1.5rem;
+  color: white;
+}
+
+.about-content p {
+  margin: 0.75rem 0;
+  line-height: 1.6;
+}
+
+.about-content ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 0.5rem;
+}
+
+.about-content ul li {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.contact-container input{
+  background-color: transparent;
+  
+}
+.contact-container textarea{
+  background-color: transparent;
+}
+
+.question-form-container textarea{
+  background-color: transparent;
+}
+
+.question-form-container input{
+  background-color: transparent;
 }
