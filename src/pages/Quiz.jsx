@@ -147,7 +147,7 @@ export default function Quiz() {
               <h3>🏆 Leaderboard</h3>
               <table className="leaderboard-table" style={{ marginTop: '1rem', width: '100%', borderCollapse: 'collapse' }}>
                 <thead>
-                  <tr style={{ backgroundColor: '#f0f0f0' }}>
+                  <tr style={{ backgroundColor: 'black' }}>
                     <th style={{ padding: '0.5rem', border: '1px solid #ccc' }}>Name</th>
                     <th style={{ padding: '0.5rem', border: '1px solid #ccc' }}>Score</th>
                     <th style={{ padding: '0.5rem', border: '1px solid #ccc' }}>Date</th>
